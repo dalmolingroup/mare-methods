@@ -17,7 +17,7 @@ Existem várias maneiras de contribuir — desde a correção de erros de digita
 ## Contribuindo com Texto e Documentação
 
 Você pode contribuir com melhorias na documentação diretamente pelo **site da documentação** (baseado em MkDocs)!  
-Basta clicar no botão **"Edit this page"** no canto superior direito da página que deseja editar.  
+Basta clicar no botão **com um lápis** no canto superior direito da página que deseja editar.  
 Isso abrirá a interface do GitHub, onde você poderá propor alterações sem precisar clonar o repositório.
 
 > Essa é a maneira mais rápida e simples de corrigir textos, adicionar informações ou melhorar descrições!
