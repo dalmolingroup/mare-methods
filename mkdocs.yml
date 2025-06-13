@@ -1,0 +1,61 @@
+# Project information
+site_name: "Documentação do Projeto MaRe"
+site_description: "Análise de dados metagenômicos dos biomas Mangue e Restinga no Brasil."
+site_author: "Equipe do Projeto MaRe"
+site_url: "https://dalmolingroup.github.io/mare-methods/" 
+
+# Copyright
+copyright: 'Copyright &copy; 2025 Equipe do Projeto MaRe'
+
+# Configuration
+theme:
+  name: material
+  language: pt # Set language to Portuguese
+  palette:
+    # Palette toggle for light vs dark mode
+    - scheme: default
+      primary: 'teal'
+      accent: 'amber'
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'teal'
+      accent: 'amber'
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
+
+# Page tree
+nav:
+  - 'Início': 'index.md'
+  - 'Análises':
+    - 'Classificação Taxonômica': 'classificacao_taxonomica.md'
+    - 'Montagem Genômica': 'montagem.md'
+    - 'Anotação Funcional': 'anotacao_funcional.md'
+  - 'Como Contribuir': 'CONTRIBUTING.md'
+
+plugins:
+  - search
+
