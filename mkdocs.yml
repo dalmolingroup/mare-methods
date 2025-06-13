@@ -3,6 +3,7 @@ site_name: "Documentação do Projeto MaRe"
 site_description: "Análise de dados metagenômicos dos biomas Mangue e Restinga no Brasil."
 site_author: "Equipe do Projeto MaRe"
 site_url: "https://dalmolingroup.github.io/mare-methods/" 
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: 'Copyright &copy; 2025 Equipe do Projeto MaRe'
